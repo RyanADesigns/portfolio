@@ -8,22 +8,25 @@ img {
   border: 10px solid lightgrey;
   float: left;
   margin: 25px;
-  height:250px;
-  width:350px;
+  height: 25rem;
+  width: 35rem;
 }
 
 article {
   margin: 20 auto;
-  height: 100%;
+  height: 80%;
   width: 100%;
 }
 
-img:hover {
-  height: 300px;
-  width: 360px;
-  
+/*img:hover {
+  height: 500px;
+  width: 560px;
+  */
 }
 
+img: hover{
+  background-color: aqua;
+}
 h1 {
   font-size: 52px;
   color: darkgrey;
@@ -31,8 +34,8 @@ h1 {
 
 h3 {
   color:darkgray;
-  font-size: 32px;
-  margin-left: 800px;
+  font-size: 5rem;
+  margin-left: 45%;
   display: inline-block;
 }
 
@@ -46,6 +49,9 @@ a {
 }
 
 nav {
+  height: 3rem;
+  width: 100%;
+  background-color: #076AAF;
   
 }
 
@@ -83,7 +89,7 @@ div p  {
 
 body {
   background-image: url(https://static.pexels.com/photos/30732/pexels-photo-30732.jpg);
-  background-size:2500px;
+  background-size:100%;
   background-repeat:no-repeat;
 }
 div a {
