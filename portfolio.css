@@ -24,16 +24,14 @@ article {
   */
 }
 
-img: hover{
-  background-color: aqua;
-}
+
 h1 {
-  font-size: 52px;
-  color: darkgrey;
+  font-size: 3rem;
+  color: darkgray;
 }
 
 h3 {
-  color:darkgray;
+  color: darkgray;
   font-size: 5rem;
   margin-left: 45%;
   display: inline-block;
