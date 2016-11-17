@@ -4,7 +4,7 @@ body{
 }
 
 img {
-  display:inline-block;
+  display: inline-block;
   border: 10px solid lightgrey;
   float: left;
   margin: 25px;

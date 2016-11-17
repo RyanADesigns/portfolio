@@ -44,26 +44,65 @@ nav {
   border-right: 2px solid black;
   font-family: 'Six Caps', sans-serif;
   font-size: 45px;
+  } 
+
+nav:hover {
+  width: 25rem;
+  transition: width 1s;
+  z-index: -1;
+}
+aside {
+  position: absolute;
+  left: 20rem;
+  top: 30rem;
+  height: 70rem;
+  width: 12rem;
+  font-size: 48px;
+  color: black;
+  border: 2px solid black;
+  z-index: 3;
+  overflow: hidden;
+  font-family: 'Six Caps', sans-serif;
+  
+}
+aside h1 {
+  font-size: 45px;
+  font-family: 'Six Caps', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  z-index: 3;
+
   
 }
 body {
   background-color: black;
   height: 100rem;
+  z-index: 4;
   
 }
 main img {
   position: absolute;
-  top: 70%;
-  left: 40%;
+  top: 43rem;
+  left: 60rem;
   height: 20rem;
   width: 45rem;
+  border: 2px solid #01C470;
 }
-nav div {
-  border: 2px solid black;
+main img:hover {
   height: 40rem;
-  width: 10rem;
+  width: 90rem;
+  transition: 1s, 1s;
+  z-index: 5;
+}
+#contain_links {
+  width: 11rem;
+}
+#dynamic_div {
+  border: 3px solid black;
+  height: 40rem;
+  width: 13rem;
   position: absolute;
-  left: 4rem;
+  left: 2.5rem;
   top: 47rem;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 60px;
@@ -78,7 +117,8 @@ main h1 {
  /* position: absolute;
   left: 20rem;
   top: 25rem;*/
-  font-size: 70px
+  font-size: 70px;
+  
 }
 /*#list_h1 {
   position: absolute;
@@ -99,6 +139,7 @@ main p {
   left: 20rem;
   font-size: 25px;
   font-family: 'Open Sans Condensed', sans-serif;
+  z-index: 4;
 }
 ul {
   display: inline-block;
@@ -112,4 +153,8 @@ i {
   position: absolute;
   top: 87rem;
   left: 1rem
+}
+
+li:nth-child(1) {
+  color: crimson;
 }
