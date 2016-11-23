@@ -95,8 +95,11 @@ main img {
   width: 45rem;
   border: 2px solid #01C470;
   transition: 1s, 1s;
+/*  put image div width and position then add fransform scale(2,2)*/
 }
 main img:hover {
+  position: relative;
+  left: 5rem;
   height: 40rem;
   width: 90rem;
   z-index: 5;
@@ -165,3 +168,5 @@ i {
 li:nth-child(1) {
   color: crimson;
 }
+
+#52stupJHS nanas wifi
