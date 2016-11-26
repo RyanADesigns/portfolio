@@ -39,32 +39,39 @@
 }
 
 nav {
-  background-color: #01C470;
+  
+  background-color: #230B1C;
   width: 6.99rem;
   height: 70rem;
   float: left;
   padding-right: 10rem;
-  border-right: 2px solid black;
+  border: 2px solid black;
   font-family: 'Six Caps', sans-serif;
   font-size: 45px;
   transition: width 1s;
-  } 
+  z-index: -11;
+  color: #8C4E25;
+} 
 
+nav a {
+  color: #8C4E25;
+}
 nav:hover {
+  position: static;
   width: 25rem;
   
-  z-index: -1;
 }
 aside {
+  display: none;
   position: absolute;
   left: 20rem;
   top: 38rem;
   height: 50rem;
   width: 12rem;
   font-size: 48px;
-  color: black;
+  color: #D77B23;
   border: none;
-  z-index: 3;
+
   overflow: hidden;
   font-family: 'Six Caps', sans-serif;
 }
@@ -77,9 +84,12 @@ aside h1 {
   font-family: 'Six Caps', sans-serif;
   letter-spacing: 2px;
   text-align: center;
-  z-index: 3;
 
-  
+}
+
+nav:hover aside {
+  display: block;
+  transition-delay: 0.5s;
 }
 body {
   background-color: black;
@@ -98,22 +108,23 @@ main img {
 /*  put image div width and position then add fransform scale(2,2)*/
 }
 main img:hover {
-  position: relative;
-  left: 5rem;
+  position: absolute;
+  left: 60rem;
   height: 40rem;
   width: 90rem;
   z-index: 5;
 }
 #contain_links {
   width: 11rem;
+  color: black;
 }
 #dynamic_div {
-  border: 3px solid black;
+  border: 3px solid #D77B23;
   height: 40rem;
   width: 13rem;
   position: absolute;
   left: 2.5rem;
-  top: 47rem;
+  top: 49rem;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 60px;
   letter-spacing: -.1rem
@@ -140,16 +151,18 @@ h3 {
   position: absolute;
   top: 33rem;
   left: 54rem;
-  font-size: 50px
+  font-size: 50px;
+  
 } 
 main p {
-  color: #01C470;
-   position: absolute;
+  display: inline-block;
+  color: #D77B23;
+/*   position: absolute;*/
   top: 65rem;
   left: 20rem;
   font-size: 25px;
   font-family: 'Open Sans Condensed', sans-serif;
-  z-index: 4;
+  
 }
 ul {
   display: inline-block;
@@ -161,8 +174,8 @@ ul {
 }
 i {
   position: absolute;
-  top: 87rem;
-  left: 1rem
+  top: 93rem;
+  left: 1rem;
 }
 
 li:nth-child(1) {
