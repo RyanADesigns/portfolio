@@ -55,6 +55,9 @@ nav {
 nav a {
   color: #8C4E25;
 }
+nav a:hover {
+  color: #B97548;
+}
 nav:hover {
   position: static;
   width: 25rem;
