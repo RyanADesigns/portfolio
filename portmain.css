@@ -47,7 +47,7 @@ nav {
   border: 2px solid black;
   font-family: 'Six Caps', sans-serif;
   font-size: 45px;
-  transition: width 1s;
+  transition: width 0.1s;
   z-index: -11;
   color: #8C4E25;
 } 
@@ -73,7 +73,7 @@ aside {
   font-size: 48px;
   color: #D77B23;
   border: none;
-
+  transition-delay: 1s;
   overflow: hidden;
   font-family: 'Six Caps', sans-serif;
 }
@@ -91,7 +91,8 @@ aside h1 {
 
 nav:hover aside {
   display: block;
-  transition-delay: 0.5s;
+ 
+  
 }
 body {
   background-color: black;
@@ -135,34 +136,48 @@ main img:hover {
 .blue_text {
   font-family: 'Six Caps', sans-serif;
   color: #FED2B5;
-} 
+  
+}
+h3.blue_text {
+  font-size: 20rem;
+  text-align: center;
+  position: absolute;
+  top: 45rem;
+  left: 35rem
+}
 main h1 {
- /* position: absolute;
-  left: 20rem;
-  top: 25rem;*/
+  color: #FED2B5;
+  font-family: 'Six Caps', sans-serif;
   font-size: 70px;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
   
 }
-/*#list_h1 {
+#list_h1 {
   position: absolute;
   left: 20rem;
-  top: 25rem;*/
-  
+  top: 25rem;
 }
-h3 {
-  position: absolute;
+/*having trouble with h3"all about..."
+abs from web main
+rel from where it would be
+and paragraph. cant delete post CSS without deleting it.*/
+}
+h3 { /*change to more specific selecter*/
+  position: absolute; 
   top: 33rem;
   left: 54rem;
-  font-size: 50px;
+  font-size: 7rem;
   
 } 
 main p {
   display: inline-block;
   color: #D77B23;
-/*   position: absolute;*/
+   position: absolute;
   top: 65rem;
   left: 20rem;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Open Sans Condensed', sans-serif;
   
 }
